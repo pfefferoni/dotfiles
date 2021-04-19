@@ -5,7 +5,8 @@ execute pathogen#infect()
 syntax on
 filetype plugin indent on
 " Hilfeseiten aktualisieren mit :Helptags
-"
+
+
 " add PLUGIN git 
 " cd ~/.vim/bundle && git clone https://github.com/tpope/vim-fugitive
 "
@@ -17,8 +18,16 @@ filetype plugin indent on
 colorscheme gruvbox
 set bg=dark
 
-" coole Sache
-" cd ~/.vim/bundle && git clone https://github.com/junegunn/fzf
+" add PLUGIN fzf
+" fzf fuer vim hier muss auch fzf im os installiert werden
+" git clone --depth 1 https://github.com/junegunn/fzf.git ~/.fzf
+" cd ~/.fzf/
+" ./install
+" cd ~/.vim/bundle && git clone https://github.com/junegunn/fzf.vim.git
+
+" add PLUGIN dbext
+" git clone https://github.com/vim-scripts/dbext.vim.git
+"
 
 
 " mapping der Leader Taste to blank
